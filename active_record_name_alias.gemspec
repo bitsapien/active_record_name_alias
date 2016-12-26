@@ -6,8 +6,12 @@ Gem::Specification.new do |s|
   s.description = "Creates Name Aliases for your data"
   s.authors     = ["bitsapien"]
   s.email       = 'bitsapien@gmail.com'
-  s.files       = ["lib/active_record_name_alias.rb"]
-  s.homepage    =
-    'http://rubygems.org/gems/active_record_name_alias'
+  s.files         = `git ls-files`.split("\n")
+  s.require_paths = ["lib"]  
+  s.required_ruby_version = '>= 2.1.0'
+  s.add_dependency("orm_adapter", "~> 0.1")
+  s.add_dependency("railties", ">= 4.1.0", "< 5.1")
+  # s.homepage    =
+  #   'http://rubygems.org/gems/active_record_name_alias'
   s.license       = 'MIT'
 end
