@@ -1,4 +1,4 @@
-module NameAlias
+module ActiveRecordNameAlias
   module Generators
     module OrmHelpers
       def model_contents

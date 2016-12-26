@@ -3,7 +3,7 @@ require 'generators/devise/orm_helpers'
 
 module ActiveRecord
   module Generators
-    class NameAliasGenerator < ActiveRecord::Generators::Base
+    class ActiveRecordNameAliasGenerator < ActiveRecord::Generators::Base
       argument :attributes, type: :array, default: [], banner: "field:type field:type"
 
       include ActiveRecordNameAlias::Generators::OrmHelpers
