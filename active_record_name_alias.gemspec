@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name                  = 'ActiveRecordNameAlias'
+  s.name                  = 'active_record_name_alias'
   s.version               = '0.0.1'
   s.date                  = '2016-12-26'
   s.summary               = "Creates Name Aliases for your data"
